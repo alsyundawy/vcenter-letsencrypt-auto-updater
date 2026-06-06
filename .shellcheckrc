@@ -1,0 +1,10 @@
+# ShellCheck configuration for bash scripts
+# Reference: https://www.shellcheck.net/
+
+# Disable specific warnings if needed (uncomment as required):
+# disable=SC2086,SC1091
+
+# Recommended checks enabled by default
+# SC2086: Double quote to prevent globbing and word splitting
+# SC1091: Not following sourced files
+# SC2181: Check exit code directly
